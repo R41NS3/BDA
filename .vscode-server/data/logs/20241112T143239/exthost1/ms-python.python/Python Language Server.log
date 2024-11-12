@@ -1,0 +1,114 @@
+2024-11-12 14:34:20.814 [info] (Client) Pylance async client (2024.11.1) started with python extension (2024.18.1)
+2024-11-12 14:34:21.417 [info] [Info  - 2:34:21 PM] (703) Server root directory: file:///home/uddin/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1/dist
+2024-11-12 14:34:21.417 [info] [Info  - 2:34:21 PM] (703) Pylance language server 2024.11.1 (pyright version 1.1.386, commit 4180fa21) starting
+2024-11-12 14:34:21.417 [info] [Info  - 2:34:21 PM] (703) Starting service instance "uddin"
+2024-11-12 14:34:21.594 [info] [Info  - 2:34:21 PM] (703) Setting environmentName for service "uddin": "3.11.2 (room venv)"
+2024-11-12 14:34:21.596 [info] [Info  - 2:34:21 PM] (703) Setting pythonPath for service "uddin": "/home/uddin/room/bin/python"
+2024-11-12 14:34:21.597 [info] [Info  - 2:34:21 PM] (703) No include entries specified; assuming /home/uddin
+2024-11-12 14:34:21.598 [info] [Info  - 2:34:21 PM] (703) Auto-excluding **/node_modules
+2024-11-12 14:34:21.602 [info] [Info  - 2:34:21 PM] (703) Auto-excluding **/__pycache__
+2024-11-12 14:34:21.602 [info] [Info  - 2:34:21 PM] (703) Auto-excluding **/.*
+2024-11-12 14:34:21.602 [info] [Info  - 2:34:21 PM] (703) Assuming Python version 3.11.2.final.0
+2024-11-12 14:34:21.602 [info] [Info  - 2:34:21 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:34:21.603 [info] [Info  - 2:34:21 PM] (703) Found 1 source file
+2024-11-12 14:34:22.020 [info] [Info  - 2:34:22 PM] (703) Background analysis(1) root directory: file:///home/uddin/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1/dist
+2024-11-12 14:34:22.023 [info] [Info  - 2:34:22 PM] (703) Background analysis(1) started
+2024-11-12 14:34:38.312 [info] [Info  - 2:34:38 PM] (703) Indexer background runner(2) root directory: file:///home/uddin/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1/dist (index)
+2024-11-12 14:34:38.312 [info] [Info  - 2:34:38 PM] (703) Indexing(2) started
+2024-11-12 14:34:38.943 [info] [Info  - 2:34:38 PM] (703) scanned(2) 14 files over 1 exec env
+2024-11-12 14:34:39.867 [info] [Info  - 2:34:39 PM] (703) indexed(2) 14 files over 1 exec env
+2024-11-12 14:34:39.898 [info] [Info  - 2:34:39 PM] (703) Indexing finished(2).
+2024-11-12 14:39:33.899 [info] [Info  - 2:39:33 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:39:33.914 [info] [Info  - 2:39:33 PM] (703) Found 1 source file
+2024-11-12 14:39:34.132 [info] [Info  - 2:39:34 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:39:34.134 [info] [Info  - 2:39:34 PM] (703) Found 1 source file
+2024-11-12 14:39:35.583 [info] [Info  - 2:39:35 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:39:35.586 [info] [Info  - 2:39:35 PM] (703) Found 1 source file
+2024-11-12 14:39:36.068 [info] [Info  - 2:39:36 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:39:36.070 [info] [Info  - 2:39:36 PM] (703) Found 1 source file
+2024-11-12 14:39:36.522 [info] [Info  - 2:39:36 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:39:36.523 [info] [Info  - 2:39:36 PM] (703) Found 1 source file
+2024-11-12 14:39:37.549 [info] [Info  - 2:39:37 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:39:37.551 [info] [Info  - 2:39:37 PM] (703) Found 1 source file
+2024-11-12 14:39:38.867 [info] [Info  - 2:39:38 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:39:38.868 [info] [Info  - 2:39:38 PM] (703) Found 1 source file
+2024-11-12 14:39:42.554 [info] [Info  - 2:39:42 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:39:42.555 [info] [Info  - 2:39:42 PM] (703) Found 1 source file
+2024-11-12 14:42:41.603 [info] [Info  - 2:42:41 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:41.606 [info] [Info  - 2:42:41 PM] (703) Found 1 source file
+2024-11-12 14:42:42.196 [info] [Info  - 2:42:42 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:42.197 [info] [Info  - 2:42:42 PM] (703) Found 1 source file
+2024-11-12 14:42:42.682 [info] [Info  - 2:42:42 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:42.684 [info] [Info  - 2:42:42 PM] (703) Found 1 source file
+2024-11-12 14:42:43.386 [info] [Info  - 2:42:43 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:43.388 [info] [Info  - 2:42:43 PM] (703) Found 1 source file
+2024-11-12 14:42:43.729 [info] [Info  - 2:42:43 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:43.732 [info] [Info  - 2:42:43 PM] (703) Found 1 source file
+2024-11-12 14:42:43.907 [info] [Info  - 2:42:43 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:43.909 [info] [Info  - 2:42:43 PM] (703) Found 1 source file
+2024-11-12 14:42:44.680 [info] [Info  - 2:42:44 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:44.681 [info] [Info  - 2:42:44 PM] (703) Found 1 source file
+2024-11-12 14:42:45.402 [info] [Info  - 2:42:45 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:45.403 [info] [Info  - 2:42:45 PM] (703) Found 1 source file
+2024-11-12 14:42:45.709 [info] [Info  - 2:42:45 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:45.712 [info] [Info  - 2:42:45 PM] (703) Found 1 source file
+2024-11-12 14:42:46.981 [info] [Info  - 2:42:46 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:46.983 [info] [Info  - 2:42:46 PM] (703) Found 1 source file
+2024-11-12 14:42:48.831 [info] [Info  - 2:42:48 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:48.833 [info] [Info  - 2:42:48 PM] (703) Found 1 source file
+2024-11-12 14:42:48.914 [info] [Info  - 2:42:48 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:48.917 [info] [Info  - 2:42:48 PM] (703) Found 1 source file
+2024-11-12 14:42:49.488 [info] [Info  - 2:42:49 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:49.490 [info] [Info  - 2:42:49 PM] (703) Found 1 source file
+2024-11-12 14:42:50.398 [info] [Info  - 2:42:50 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:42:50.401 [info] [Info  - 2:42:50 PM] (703) Found 1 source file
+2024-11-12 14:44:43.766 [info] [Info  - 2:44:43 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:44:43.768 [info] [Info  - 2:44:43 PM] (703) Found 1 source file
+2024-11-12 14:44:44.329 [info] [Info  - 2:44:44 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:44:44.330 [info] [Info  - 2:44:44 PM] (703) Found 1 source file
+2024-11-12 14:53:11.837 [info] [Info  - 2:53:11 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:53:11.842 [info] [Info  - 2:53:11 PM] (703) Found 2 source files
+2024-11-12 14:57:24.193 [info] [Info  - 2:57:24 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:57:24.214 [info] [Info  - 2:57:24 PM] (703) Found 2 source files
+2024-11-12 14:57:25.058 [info] [Info  - 2:57:25 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:57:25.069 [info] [Info  - 2:57:25 PM] (703) Found 2 source files
+2024-11-12 14:57:25.232 [info] [Info  - 2:57:25 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 14:57:25.239 [info] [Info  - 2:57:25 PM] (703) Found 2 source files
+2024-11-12 15:28:08.870 [info] [Info  - 3:28:08 PM] (703) Auto-excluding /home/uddin/room
+2024-11-12 15:28:08.980 [info] [Info  - 3:28:08 PM] (703) Found 3 source files
+2024-11-12 15:39:13.236 [info] [Info  - 3:39:13 PM] Server process exited successfully
+2024-11-12 15:39:13.766 [info] (Client) Pylance async client (2024.11.1) started with python extension (2024.18.1)
+2024-11-12 15:39:14.343 [info] [Info  - 3:39:14 PM] (18246) Server root directory: file:///home/uddin/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1/dist
+2024-11-12 15:39:14.344 [info] [Info  - 3:39:14 PM] (18246) Pylance language server 2024.11.1 (pyright version 1.1.386, commit 4180fa21) starting
+2024-11-12 15:39:14.351 [info] [Info  - 3:39:14 PM] (18246) Starting service instance "uddin"
+2024-11-12 15:39:14.418 [info] [Info  - 3:39:14 PM] (18246) Setting environmentName for service "uddin": "3.11.2 (room venv)"
+2024-11-12 15:39:14.419 [info] [Info  - 3:39:14 PM] (18246) Setting pythonPath for service "uddin": "/home/uddin/room/bin/python"
+2024-11-12 15:39:14.420 [info] [Info  - 3:39:14 PM] (18246) No include entries specified; assuming /home/uddin
+2024-11-12 15:39:14.421 [info] [Info  - 3:39:14 PM] (18246) Auto-excluding **/node_modules
+2024-11-12 15:39:14.421 [info] [Info  - 3:39:14 PM] (18246) Auto-excluding **/__pycache__
+2024-11-12 15:39:14.421 [info] [Info  - 3:39:14 PM] (18246) Auto-excluding **/.*
+2024-11-12 15:39:14.445 [info] [Info  - 3:39:14 PM] (18246) Assuming Python version 3.11.2.final.0
+2024-11-12 15:39:14.579 [info] [Info  - 3:39:14 PM] (18246) Auto-excluding /home/uddin/room
+2024-11-12 15:39:14.583 [info] [Info  - 3:39:14 PM] (18246) Found 3 source files
+2024-11-12 15:39:14.941 [info] [Info  - 3:39:14 PM] (18246) Background analysis(1) root directory: file:///home/uddin/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1/dist
+2024-11-12 15:39:14.945 [info] [Info  - 3:39:14 PM] (18246) Background analysis(1) started
+2024-11-12 15:39:15.115 [info] [Info  - 3:39:15 PM] (18246) Indexer background runner(2) root directory: file:///home/uddin/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1/dist (index)
+2024-11-12 15:39:15.115 [info] [Info  - 3:39:15 PM] (18246) Indexing(2) started
+2024-11-12 15:39:16.189 [info] [Info  - 3:39:16 PM] (18246) scanned(2) 233 files over 1 exec env
+2024-11-12 15:39:20.153 [info] [Info  - 3:39:20 PM] (18246) [IDX(2)] Long operation: index execution environment file:///home/uddin (3723ms)
+2024-11-12 15:39:20.176 [info] [Info  - 3:39:20 PM] (18246) [IDX(2)] Long operation: index packages file:///home/uddin (3755ms)
+2024-11-12 15:39:20.177 [info] [Info  - 3:39:20 PM] (18246) indexed(2) 233 files over 1 exec env
+2024-11-12 15:39:20.264 [info] [Info  - 3:39:20 PM] (18246) Indexing finished(2).
+2024-11-12 15:48:44.923 [info] [Info  - 3:48:44 PM] (18246) Auto-excluding /home/uddin/room
+2024-11-12 15:48:44.928 [info] [Info  - 3:48:44 PM] (18246) Found 4 source files
+2024-11-12 15:49:14.646 [info] [Info  - 3:49:14 PM] (18246) Auto-excluding /home/uddin/room
+2024-11-12 15:49:14.649 [info] [Info  - 3:49:14 PM] (18246) Found 4 source files
+2024-11-12 15:49:20.187 [info] [Info  - 3:49:20 PM] (18246) Indexer background runner(3) root directory: file:///home/uddin/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1/dist (refresh)
+2024-11-12 15:49:20.187 [info] [Info  - 3:49:20 PM] (18246) Indexing(3) started
+2024-11-12 15:49:20.868 [info] [Info  - 3:49:20 PM] (18246) scanned(3) 234 files over 1 exec env
+2024-11-12 15:49:21.332 [info] [Info  - 3:49:21 PM] (18246) indexed(3) 234 files over 1 exec env
+2024-11-12 15:49:21.408 [info] [Info  - 3:49:21 PM] (18246) Indexing finished(3).
+2024-11-12 15:56:00.568 [info] [Info  - 3:56:00 PM] (18246) Auto-excluding /home/uddin/room
+2024-11-12 15:56:00.599 [info] [Info  - 3:56:00 PM] (18246) Found 5 source files
+2024-11-12 16:05:56.856 [info] [Info  - 4:05:56 PM] (18246) Auto-excluding /home/uddin/room
+2024-11-12 16:05:56.870 [info] [Info  - 4:05:56 PM] (18246) Found 4 source files

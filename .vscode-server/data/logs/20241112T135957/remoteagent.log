@@ -1,0 +1,13 @@
+2024-11-12 13:59:57.307 [info] 
+
+
+
+
+2024-11-12 13:59:57.317 [info] Extension host agent started.
+2024-11-12 13:59:57.359 [info] Started initializing default profile extensions in extensions installation folder. file:///home/uddin/.vscode-server/extensions
+2024-11-12 13:59:57.514 [info] [127.0.0.1][38f94dcf][ManagementConnection] New connection established.
+2024-11-12 13:59:57.723 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/uddin/.vscode-server/extensions
+2024-11-12 13:59:57.764 [info] [127.0.0.1][dfebdf84][ExtensionHostConnection] New connection established.
+2024-11-12 13:59:57.771 [info] [127.0.0.1][dfebdf84][ExtensionHostConnection] <130> Launched Extension Host Process.
+2024-11-12 14:00:11.792 [info] [127.0.0.1][38f94dcf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-12 14:00:11.822 [info] [127.0.0.1][dfebdf84][ExtensionHostConnection] <130> Extension Host Process exited with code: 0, signal: null.

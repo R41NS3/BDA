@@ -1,0 +1,56 @@
+2024-11-12 14:34:20.125 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-11-12 14:34:20.125 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-11-12 14:34:20.125 [info] Experiment 'pythonTestAdapter' is active
+2024-11-12 14:34:20.125 [warning] Dir "/home/uddin/.pixi/envs" is not watchable (directory does not exist)
+2024-11-12 14:34:20.125 [info] Starting Environment refresh
+2024-11-12 14:34:20.125 [info] Starting Environment refresh
+2024-11-12 14:34:20.125 [info] > hatch env show --json
+2024-11-12 14:34:20.125 [info] cwd: .
+2024-11-12 14:34:20.168 [info] > ./room/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.18.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.18.1-linux-x64/python_files/interpreterInfo.py
+2024-11-12 14:34:20.182 [info] Environments refresh paths discovered: 645 milliseconds
+2024-11-12 14:34:20.182 [info] Environments refresh paths discovered: 643 milliseconds
+2024-11-12 14:34:20.224 [info] Environments refresh finished (event): 687 milliseconds
+2024-11-12 14:34:20.224 [info] Environments refresh finished (event): 685 milliseconds
+2024-11-12 14:34:20.226 [info] Environment refresh took 690 milliseconds
+2024-11-12 14:34:20.226 [info] Environment refresh took 688 milliseconds
+2024-11-12 14:34:20.229 [info] > pyenv which python
+2024-11-12 14:34:20.230 [info] cwd: .
+2024-11-12 14:34:20.264 [info] Python interpreter path: ./room/bin/python
+2024-11-12 14:34:20.376 [info] > . ./room/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.18.1-linux-x64/python_files/printEnvVariables.py
+2024-11-12 14:34:20.376 [info] shell: bash
+2024-11-12 14:34:20.404 [info] > python ./.vscode-server/extensions/ms-python.python-2024.18.1-linux-x64/python_files/printEnvVariables.py
+2024-11-12 14:34:20.404 [info] shell: bash
+2024-11-12 14:34:20.428 [info] Setting environment variable PYTHONUNBUFFERED in collection to 1 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-11-12 14:34:20.428 [info] Setting environment variable VIRTUAL_ENV in collection to /home/uddin/room {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-11-12 14:34:20.428 [info] Setting environment variable PYTHONIOENCODING in collection to utf-8 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-11-12 14:34:20.428 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (room)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-11-12 14:34:20.428 [info] Prepending environment variable PS1 in collection with (room)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-11-12 14:34:20.428 [info] Prepending environment variable PATH in collection with /home/uddin/.vscode-server/extensions/ms-python.python-2024.18.1-linux-x64/python_files/deactivate/bash:/home/uddin/room/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-11-12 14:34:20.429 [info] Send text to terminal: python /home/uddin/.vscode-server/extensions/ms-python.python-2024.18.1-linux-x64/python_files/printEnvVariablesToFile.py /home/uddin/.vscode-server/extensions/ms-python.python-2024.18.1-linux-x64/python_files/deactivate/bash/envVars.txt
+2024-11-12 14:34:21.431 [info] Starting Pylance language server.
+2024-11-12 14:34:37.810 [info] Discover tests for workspace name: uddin - uri: /home/uddin/.vscode-server/extensions/.b54c5e53-9f62-4a6c-ae0c-8af2124f6110/python_files/pyproject.toml
+2024-11-12 14:34:38.185 [info] Discover tests for workspace name: uddin - uri: /home/uddin/.vscode-server/extensions/.48b38220-274b-4faf-9954-7ee927127197/python_files/pyproject.toml
+2024-11-12 14:34:52.827 [info] Send text to terminal:  /usr/bin/env /home/uddin/room/bin/python /home/uddin/.vscode-server/extensions/ms-python.debugpy-2024.12.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 43847 -- /home/uddin/fuzzy-c-means/fcm.py 
+2024-11-12 14:39:33.343 [info] Discover tests for workspace name: uddin - uri: /home/uddin/room/lib/python3.11/site-packages/numpy/f2py/setup.cfg
+2024-11-12 14:39:37.501 [info] Discover tests for workspace name: uddin - uri: /home/uddin/room/lib/python3.11/site-packages/pandas/pyproject.toml
+2024-11-12 14:40:08.128 [info] Discover tests for workspace name: uddin - uri: /home/uddin
+2024-11-12 14:40:27.914 [info] CreateEnv Trigger - Skipping for /home/uddin/fuzzy-c-means/fcm.py
+2024-11-12 14:42:49.866 [info] Discover tests for workspace name: uddin - uri: /home/uddin/room/lib/python3.11/site-packages/jupyterlab/tests/mock_packages/test_no_hyphens/pyproject.toml
+2024-11-12 14:53:14.865 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/scrapping.py
+2024-11-12 14:56:13.254 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/scrapping.py
+2024-11-12 14:58:46.717 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/scrapping.py
+2024-11-12 14:58:47.465 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/scrapping.py
+2024-11-12 14:58:48.003 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/scrapping.py
+2024-11-12 15:28:10.950 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/gasin.py
+2024-11-12 15:32:41.012 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/gasin.py
+2024-11-12 15:33:10.364 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/gasin.py
+2024-11-12 15:37:20.880 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/gasin.py
+2024-11-12 15:41:30.896 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/gasin.py
+2024-11-12 15:48:46.935 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/analisis.py
+2024-11-12 15:48:47.655 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/analisis.py
+2024-11-12 15:51:58.330 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/analisis.py
+2024-11-12 15:51:59.264 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/analisis.py
+2024-11-12 15:54:49.424 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/analisis.py
+2024-11-12 15:56:19.081 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/analisis1.py
+2024-11-12 15:56:25.139 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/analisis1.py
+2024-11-12 15:57:51.891 [info] Discover tests for workspace name: uddin - uri: /home/uddin/kode/analisis1.py

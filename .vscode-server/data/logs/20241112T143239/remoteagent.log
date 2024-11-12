@@ -1,0 +1,60 @@
+2024-11-12 14:32:39.474 [info] 
+
+
+
+
+2024-11-12 14:32:39.505 [info] Extension host agent started.
+2024-11-12 14:32:39.890 [info] [127.0.0.1][9af2489e][ExtensionHostConnection] New connection established.
+2024-11-12 14:32:40.050 [info] [127.0.0.1][9af2489e][ExtensionHostConnection] <54> Launched Extension Host Process.
+2024-11-12 14:32:40.157 [info] [127.0.0.1][a699f861][ManagementConnection] New connection established.
+2024-11-12 14:33:30.104 [info] Getting Manifest... ms-python.python
+2024-11-12 14:33:30.377 [info] Installing extension: ms-python.python {"installPreReleaseVersion":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/uddin/.vscode-server/extensions/extensions.json","external":"file:///home/uddin/.vscode-server/extensions/extensions.json","path":"/home/uddin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-11-12 14:33:31.956 [info] Getting Manifest... ms-python.vscode-pylance
+2024-11-12 14:33:32.101 [info] Getting Manifest... ms-python.debugpy
+2024-11-12 14:33:32.154 [info] Getting Manifest... ms-python.debugpy
+2024-11-12 14:33:32.241 [info] Installing extension: ms-python.vscode-pylance {"installPreReleaseVersion":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64","dependecyOrPackExtensionInstall":true},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/uddin/.vscode-server/extensions/extensions.json","external":"file:///home/uddin/.vscode-server/extensions/extensions.json","path":"/home/uddin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-11-12 14:33:32.243 [info] Installing extension: ms-python.debugpy {"installPreReleaseVersion":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64","dependecyOrPackExtensionInstall":true},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/uddin/.vscode-server/extensions/extensions.json","external":"file:///home/uddin/.vscode-server/extensions/extensions.json","path":"/home/uddin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-11-12 14:33:32.323 [info] Extension is already requested to install ms-python.debugpy file:///home/uddin/.vscode-server/extensions/extensions.json
+2024-11-12 14:33:33.742 [error] [network] #14: https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/debugpy/2024.12.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&targetPlatform=linux-x64&install=true - error GET AggregateError [ETIMEDOUT]: 
+2024-11-12 14:33:58.201 [error] [network] #15: https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/debugpy/2024.12.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?targetPlatform=linux-x64&install=true - error GET AggregateError [ETIMEDOUT]: 
+2024-11-12 14:33:58.203 [warning] Failed downloading vsix. AggregateError [ETIMEDOUT]: . Retry again... ms-python.debugpy
+2024-11-12 14:34:09.609 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 10827ms.
+2024-11-12 14:34:09.627 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 5529ms.
+2024-11-12 14:34:10.602 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 1198ms.
+2024-11-12 14:34:11.884 [info] Extracted extension to file:///home/uddin/.vscode-server/extensions/ms-python.debugpy-2024.12.0-linux-x64: ms-python.debugpy
+2024-11-12 14:34:11.895 [info] Renamed to /home/uddin/.vscode-server/extensions/ms-python.debugpy-2024.12.0-linux-x64
+2024-11-12 14:34:13.517 [info] Extracted extension to file:///home/uddin/.vscode-server/extensions/ms-python.python-2024.18.1-linux-x64: ms-python.python
+2024-11-12 14:34:13.532 [info] Renamed to /home/uddin/.vscode-server/extensions/ms-python.python-2024.18.1-linux-x64
+2024-11-12 14:34:18.888 [info] Extracted extension to file:///home/uddin/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1: ms-python.vscode-pylance
+2024-11-12 14:34:18.895 [info] Renamed to /home/uddin/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1
+2024-11-12 14:34:18.919 [info] Extension installed successfully: ms-python.debugpy file:///home/uddin/.vscode-server/extensions/extensions.json
+2024-11-12 14:34:18.919 [info] Extension installed successfully: ms-python.python file:///home/uddin/.vscode-server/extensions/extensions.json
+2024-11-12 14:34:18.919 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/uddin/.vscode-server/extensions/extensions.json
+2024-11-12 14:34:37.171 [info] Downloaded extension to file:///home/uddin/.vscode-server/data/CachedExtensionVSIXs/9b42d69d-1027-4475-8915-795548580b92
+2024-11-12 14:34:37.180 [info] Installing extension: ms-python.python {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/uddin/.vscode-server/extensions/extensions.json","external":"file:///home/uddin/.vscode-server/extensions/extensions.json","path":"/home/uddin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-11-12 14:34:37.182 [info] Installing the extension without checking dependencies and pack ms-python.python
+2024-11-12 14:34:37.208 [info] Deleted existing extension from disk ms-python.python /home/uddin/.vscode-server/extensions/ms-python.python-2024.18.1-linux-x64
+2024-11-12 14:34:40.667 [info] Extracted extension to file:///home/uddin/.vscode-server/extensions/ms-python.python-2024.18.1: ms-python.python
+2024-11-12 14:34:40.684 [info] Renamed to /home/uddin/.vscode-server/extensions/ms-python.python-2024.18.1
+2024-11-12 14:34:40.707 [info] Extension installed successfully: ms-python.python file:///home/uddin/.vscode-server/extensions/extensions.json
+2024-11-12 14:34:44.164 [info] Downloaded extension to file:///home/uddin/.vscode-server/data/CachedExtensionVSIXs/16e1cd44-942d-447d-8678-146309d7a959
+2024-11-12 14:34:45.285 [info] Installing extension: ms-python.vscode-pylance {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/uddin/.vscode-server/extensions/extensions.json","external":"file:///home/uddin/.vscode-server/extensions/extensions.json","path":"/home/uddin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-11-12 14:34:45.286 [info] Installing the extension without checking dependencies and pack ms-python.vscode-pylance
+2024-11-12 14:34:45.300 [info] Deleted existing extension from disk ms-python.vscode-pylance /home/uddin/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1
+2024-11-12 14:34:52.817 [info] Extracted extension to file:///home/uddin/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1: ms-python.vscode-pylance
+2024-11-12 14:34:52.835 [info] Renamed to /home/uddin/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.1
+2024-11-12 14:34:52.874 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/uddin/.vscode-server/extensions/extensions.json
+2024-11-12 14:35:02.808 [info] Downloaded extension to file:///home/uddin/.vscode-server/data/CachedExtensionVSIXs/d7372617-1915-4096-b489-fc0b93ad5ba5
+2024-11-12 14:35:02.814 [info] Installing extension: ms-python.debugpy {"installPreReleaseVersion":false,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/uddin/.vscode-server/extensions/extensions.json","external":"file:///home/uddin/.vscode-server/extensions/extensions.json","path":"/home/uddin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-11-12 14:35:02.815 [info] Installing the extension without checking dependencies and pack ms-python.debugpy
+2024-11-12 14:35:02.830 [info] Deleted existing extension from disk ms-python.debugpy /home/uddin/.vscode-server/extensions/ms-python.debugpy-2024.12.0-linux-x64
+2024-11-12 14:35:03.571 [info] Extracted extension to file:///home/uddin/.vscode-server/extensions/ms-python.debugpy-2024.12.0: ms-python.debugpy
+2024-11-12 14:35:03.581 [info] Renamed to /home/uddin/.vscode-server/extensions/ms-python.debugpy-2024.12.0
+2024-11-12 14:35:03.602 [info] Extension installed successfully: ms-python.debugpy file:///home/uddin/.vscode-server/extensions/extensions.json
+2024-11-12 15:39:09.758 [info] Getting Manifest... mechatroner.rainbow-csv
+2024-11-12 15:39:10.084 [info] Installing extension: mechatroner.rainbow-csv {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/uddin/.vscode-server/extensions/extensions.json","external":"file:///home/uddin/.vscode-server/extensions/extensions.json","path":"/home/uddin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-11-12 15:39:12.652 [info] Extension signature verification result for mechatroner.rainbow-csv: Success. Executed: true. Duration: 1742ms.
+2024-11-12 15:39:12.776 [info] Extracted extension to file:///home/uddin/.vscode-server/extensions/mechatroner.rainbow-csv-3.12.0: mechatroner.rainbow-csv
+2024-11-12 15:39:12.786 [info] Renamed to /home/uddin/.vscode-server/extensions/mechatroner.rainbow-csv-3.12.0
+2024-11-12 15:39:12.806 [info] Extension installed successfully: mechatroner.rainbow-csv file:///home/uddin/.vscode-server/extensions/extensions.json
+2024-11-12 16:05:56.436 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

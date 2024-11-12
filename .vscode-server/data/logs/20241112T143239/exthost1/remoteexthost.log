@@ -1,0 +1,292 @@
+2024-11-12 14:32:42.678 [info] Extension host with pid 54 started
+2024-11-12 14:32:42.678 [error] Error: EEXIST: file already exists, open '/home/uddin/.vscode-server/data/User/workspaceStorage/fa45258fdea4799ddaf3a2a8f818875f/vscode.lock'
+2024-11-12 14:32:42.692 [info] Lock '/home/uddin/.vscode-server/data/User/workspaceStorage/fa45258fdea4799ddaf3a2a8f818875f/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-12 14:32:42.729 [info] Lock '/home/uddin/.vscode-server/data/User/workspaceStorage/fa45258fdea4799ddaf3a2a8f818875f/vscode.lock': The pid 10752 appears to be gone.
+2024-11-12 14:32:42.729 [info] Lock '/home/uddin/.vscode-server/data/User/workspaceStorage/fa45258fdea4799ddaf3a2a8f818875f/vscode.lock': Deleting a stale lock.
+2024-11-12 14:32:42.795 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-12 14:32:43.017 [info] Lock '/home/uddin/.vscode-server/data/User/workspaceStorage/fa45258fdea4799ddaf3a2a8f818875f/vscode.lock': Lock acquired.
+2024-11-12 14:32:43.280 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-12 14:32:43.336 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-12 14:32:43.336 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-12 14:32:44.050 [info] Eager extensions activated
+2024-11-12 14:32:44.051 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-12 14:32:44.052 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-12 14:33:24.833 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-11-12 14:34:19.136 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-11-12 14:34:19.564 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-11-12 14:34:19.564 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-11-12 14:34:53.068 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-11-12 14:35:02.685 [error] Error: Invalid debug adapter
+    at b4t.p (vscode-file://vscode-app/d:/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:615:95)
+    at b4t.$acceptDAExit (vscode-file://vscode-app/d:/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:615:35)
+    at Pht.S (vscode-file://vscode-app/d:/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:3124:41686)
+    at Pht.Q (vscode-file://vscode-app/d:/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:3124:41464)
+    at Pht.M (vscode-file://vscode-app/d:/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:3124:40552)
+    at Pht.L (vscode-file://vscode-app/d:/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:3124:39789)
+    at vZ.value (vscode-file://vscode-app/d:/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:3124:38450)
+    at x.B (vscode-file://vscode-app/d:/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:747)
+    at x.fire (vscode-file://vscode-app/d:/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:965)
+    at D6.fire (vscode-file://vscode-app/d:/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:630:10348)
+2024-11-12 14:40:28.703 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-11-12 14:40:33.962 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-12 14:40:33.962 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-12 14:40:33.962 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-11-12 14:45:21.387 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2024-11-12 14:45:34.816 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-11-12 15:39:13.214 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:csv'
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.108 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:58.109 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.112 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.115 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.116 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.117 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.118 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.120 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.121 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.123 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.124 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.125 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.126 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.127 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.127 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.128 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.129 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.129 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.131 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.131 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.131 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.132 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.132 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.134 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.135 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.135 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.136 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.136 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.137 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.138 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-12 16:05:59.138 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/uddin/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/main.js:2:1044269)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)

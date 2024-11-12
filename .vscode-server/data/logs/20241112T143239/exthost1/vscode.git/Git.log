@@ -1,0 +1,153 @@
+2024-11-12 14:32:44.179 [info] [main] Log level: Info
+2024-11-12 14:32:44.179 [info] [main] Validating found git in: "git"
+2024-11-12 14:32:44.179 [info] [main] Using git "2.39.5" from "git"
+2024-11-12 14:32:44.179 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-12 14:32:44.179 [info] > git rev-parse --show-toplevel [12ms]
+2024-11-12 14:32:44.179 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 14:32:44.179 [info] > git rev-parse --show-toplevel [6ms]
+2024-11-12 14:32:44.180 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-12 14:32:44.209 [info] [Model][openRepository] Opened repository: /home/uddin/fuzzy-c-means
+2024-11-12 14:32:44.287 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-12 14:32:44.287 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 14:32:44.289 [info] > git config --get commit.template [11ms]
+2024-11-12 14:32:44.312 [info] > git rev-parse --show-toplevel [18ms]
+2024-11-12 14:32:44.312 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 14:32:44.318 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-12 14:32:44.318 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 14:32:44.326 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-12 14:32:44.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+2024-11-12 14:32:44.341 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/uddin/fuzzy-c-means/.git/refs/remotes/origin/master'
+2024-11-12 14:32:44.343 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-11-12 14:32:44.368 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2024-11-12 14:32:44.546 [info] > git status -z -uall [198ms]
+2024-11-12 14:32:44.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-11-12 14:32:44.576 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-11-12 14:32:44.576 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-12 14:32:44.585 [info] > git config --get commit.template [17ms]
+2024-11-12 14:32:44.590 [info] > git reflog master --grep-reflog=branch: Created from *. [6ms]
+2024-11-12 14:32:44.596 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-11-12 14:32:44.601 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2024-11-12 14:32:44.608 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/uddin/fuzzy-c-means/.git/refs/remotes/origin/master'
+2024-11-12 14:32:44.609 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [6ms]
+2024-11-12 14:32:44.624 [info] > git rev-parse refs/remotes/origin/master [17ms]
+2024-11-12 14:32:44.638 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-12 14:32:44.639 [info] > git config --local branch.master.vscode-merge-base origin/master [17ms]
+2024-11-12 14:32:44.660 [info] > git status -z -uall [32ms] (cancelled)
+2024-11-12 14:32:44.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2024-11-12 14:32:44.667 [info] > git config --get commit.template [8ms]
+2024-11-12 14:32:44.668 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-11-12 14:32:44.683 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [5ms]
+2024-11-12 14:32:44.793 [info] > git check-ignore -v -z --stdin [14ms]
+2024-11-12 14:32:44.795 [info] > git merge-base refs/heads/master refs/remotes/origin/master [106ms]
+2024-11-12 14:32:44.799 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [117ms]
+2024-11-12 14:32:44.814 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/uddin/fuzzy-c-means/.git/refs/remotes/origin/master'
+2024-11-12 14:32:44.816 [info] > git diff --name-status -z --diff-filter=ADMR ee9226c5d5198a92a9107d7c304532810643c0eb...refs/remotes/origin/master [16ms]
+2024-11-12 14:32:44.817 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-11-12 14:32:44.861 [info] > git show --textconv :fcm.py [5ms]
+2024-11-12 14:32:44.862 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [28ms]
+2024-11-12 14:32:44.873 [info] > git ls-files --stage -- /home/uddin/fuzzy-c-means/fcm.py [13ms]
+2024-11-12 14:32:44.903 [info] > git cat-file -s 9e3c2fef2aac884626adfdf33f3ca87efd55dd81 [1ms]
+2024-11-12 14:32:45.129 [info] > git status -z -uall [299ms]
+2024-11-12 14:32:46.030 [info] > git ls-files --stage -- /home/uddin/fuzzy-c-means/fcm.py [1ms]
+2024-11-12 14:32:46.035 [info] > git cat-file -s 9e3c2fef2aac884626adfdf33f3ca87efd55dd81 [1ms]
+2024-11-12 14:32:46.043 [info] > git show --textconv :fcm.py [2ms]
+2024-11-12 14:34:12.542 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/uddin/.vscode-server/extensions/.8756d519-4c59-4541-a8d8-3b4e54f6b3b8/bundled/libs/debugpy/_vendored/pydevd/_pydevd_frame_eval/". Error:Error: ENOENT: no such file or directory, realpath '/home/uddin/.vscode-server/extensions/.8756d519-4c59-4541-a8d8-3b4e54f6b3b8/bundled/libs/debugpy/_vendored/pydevd/_pydevd_frame_eval/'
+2024-11-12 14:34:12.546 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/uddin/.vscode-server/extensions/.8756d519-4c59-4541-a8d8-3b4e54f6b3b8/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/". Error:Error: ENOENT: no such file or directory, realpath '/home/uddin/.vscode-server/extensions/.8756d519-4c59-4541-a8d8-3b4e54f6b3b8/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/'
+2024-11-12 14:34:19.075 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-12 14:34:19.075 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 14:34:19.395 [info] > git rev-parse --show-toplevel [260ms]
+2024-11-12 14:34:19.395 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 14:34:37.602 [info] > git show --textconv :fcm.py [10ms]
+2024-11-12 14:34:37.604 [info] > git ls-files --stage -- /home/uddin/fuzzy-c-means/fcm.py [3ms]
+2024-11-12 14:34:37.615 [info] > git cat-file -s 9e3c2fef2aac884626adfdf33f3ca87efd55dd81 [1ms]
+2024-11-12 14:35:03.501 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/uddin/.vscode-server/extensions/.8756d519-4c59-4541-a8d8-3b4e54f6b3b8/bundled/libs/debugpy/_vendored/pydevd/_pydevd_frame_eval/". Error:Error: ENOENT: no such file or directory, realpath '/home/uddin/.vscode-server/extensions/.8756d519-4c59-4541-a8d8-3b4e54f6b3b8/bundled/libs/debugpy/_vendored/pydevd/_pydevd_frame_eval/'
+2024-11-12 14:35:04.261 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/uddin/.vscode-server/extensions/.469ebea2-4c9c-403f-8e85-536ce55f1312/bundled/libs/debugpy/_vendored/pydevd/_pydevd_frame_eval/". Error:Error: ENOENT: no such file or directory, realpath '/home/uddin/.vscode-server/extensions/.469ebea2-4c9c-403f-8e85-536ce55f1312/bundled/libs/debugpy/_vendored/pydevd/_pydevd_frame_eval/'
+2024-11-12 14:35:04.265 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/uddin/.vscode-server/extensions/.469ebea2-4c9c-403f-8e85-536ce55f1312/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/". Error:Error: ENOENT: no such file or directory, realpath '/home/uddin/.vscode-server/extensions/.469ebea2-4c9c-403f-8e85-536ce55f1312/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/'
+2024-11-12 14:40:20.911 [info] > git show --textconv :fcm.py [3ms]
+2024-11-12 14:40:20.912 [info] > git ls-files --stage -- /home/uddin/fuzzy-c-means/fcm.py [2ms]
+2024-11-12 14:40:20.916 [info] > git cat-file -s 9e3c2fef2aac884626adfdf33f3ca87efd55dd81 [1ms]
+2024-11-12 14:42:45.383 [info] > git rev-parse --show-toplevel [0ms]
+2024-11-12 14:42:45.383 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 14:45:33.777 [info] > git show --textconv :fcm.py [7ms]
+2024-11-12 14:45:33.778 [info] > git ls-files --stage -- /home/uddin/fuzzy-c-means/fcm.py [3ms]
+2024-11-12 14:45:33.787 [info] > git cat-file -s 9e3c2fef2aac884626adfdf33f3ca87efd55dd81 [3ms]
+2024-11-12 14:45:35.007 [info] > git ls-files --stage -- /home/uddin/fuzzy-c-means/fuzzy-c-means-scikit-fuzzy-image.html [2ms]
+2024-11-12 14:45:35.014 [info] > git cat-file -s b65a1b0c7ce270987211c8f479a9537b5f74a7c2 [2ms]
+2024-11-12 14:45:35.018 [info] > git show --textconv :fuzzy-c-means-scikit-fuzzy-image.html [17ms]
+2024-11-12 14:53:11.284 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-12 14:53:11.284 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:25:25.550 [info] > git rev-parse --show-toplevel [25ms]
+2024-11-12 15:25:25.552 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:28:08.292 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-12 15:28:08.292 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:38:58.665 [info] > git rev-parse --show-toplevel [14ms]
+2024-11-12 15:38:58.666 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:39:13.047 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-12 15:39:13.047 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:39:14.120 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-12 15:39:14.120 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:39:30.047 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-12 15:39:30.047 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:41:25.673 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-12 15:41:25.673 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:42:54.029 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-12 15:42:54.029 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:43:58.104 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-12 15:43:58.104 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:44:24.193 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-12 15:44:24.193 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:44:36.928 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-12 15:44:36.929 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:44:45.477 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-12 15:44:45.478 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:47:01.123 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-12 15:47:01.123 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:47:26.374 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-12 15:47:26.374 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:47:41.432 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-12 15:47:41.432 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:48:44.412 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-12 15:48:44.412 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:55:01.384 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-12 15:55:01.384 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:56:00.052 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-12 15:56:00.052 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:56:06.871 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-12 15:56:06.871 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:56:11.923 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-12 15:56:11.923 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 15:58:21.360 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-12 15:58:21.360 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-12 16:02:26.034 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-12 16:02:26.040 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-11-12 16:02:26.061 [info] [Model][openRepository] Opened repository: /home/uddin
+2024-11-12 16:02:26.071 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-12 16:02:26.071 [info] > git config --get commit.template [5ms]
+2024-11-12 16:02:26.072 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-12 16:02:26.072 [warning] [Git][getBranch] No such branch: master
+2024-11-12 16:02:26.085 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-12 16:02:26.383 [info] > git show --textconv :hasil/hasil_pengolahan.csv [5ms]
+2024-11-12 16:02:26.384 [info] > git ls-files --stage -- /home/uddin/hasil/hasil_pengolahan.csv [3ms]
+2024-11-12 16:02:26.592 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-12 16:02:26.595 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-12 16:02:27.281 [info] > git status -z -uall [1205ms] (cancelled)
+2024-11-12 16:03:12.378 [info] > git ls-files --stage -- /home/uddin/hasil/hasil_pengolahan.csv [1ms]
+2024-11-12 16:03:12.386 [info] > git show --textconv :hasil/hasil_pengolahan.csv [1ms]
+2024-11-12 16:05:01.444 [info] > git ls-files --stage -- /home/uddin/hasil/hasil_pengolahan.csv [4ms]
+2024-11-12 16:05:01.449 [info] > git cat-file -s ee81279b7a455b754d90f31ea57cd955a1183462 [1ms]
+2024-11-12 16:05:01.461 [info] > git show --textconv :hasil/hasil_pengolahan.csv [4ms]
+2024-11-12 16:05:42.951 [info] > git check-ignore -v -z --stdin [0ms]
+2024-11-12 16:05:57.414 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/uddin/fuzzy-c-means/.git/HEAD'
+2024-11-12 16:05:57.421 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/uddin/fuzzy-c-means/.git/config'
+2024-11-12 16:05:57.434 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/uddin/fuzzy-c-means/.git/HEAD'
+2024-11-12 16:05:57.489 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/uddin/fuzzy-c-means/.git/config'
+2024-11-12 16:05:58.081 [info] > git check-ignore -v -z --stdin [36ms]
+2024-11-12 16:06:03.030 [info] > git ls-files --stage -- /home/uddin/hasil/hasil_pengolahan.csv [5ms]
+2024-11-12 16:06:03.034 [info] > git cat-file -s ee81279b7a455b754d90f31ea57cd955a1183462 [1ms]
+2024-11-12 16:06:03.047 [info] > git show --textconv :hasil/hasil_pengolahan.csv [5ms]
+2024-11-12 16:06:56.222 [info] > git ls-files --stage -- /home/uddin/hasil/hasil_pengolahan.csv [6ms]
+2024-11-12 16:06:56.227 [info] > git cat-file -s ee81279b7a455b754d90f31ea57cd955a1183462 [2ms]
+2024-11-12 16:06:56.239 [info] > git show --textconv :hasil/hasil_pengolahan.csv [5ms]
+2024-11-12 16:07:11.920 [info] > git ls-files --stage -- /home/uddin/hasil/hasil_pengolahan.csv [18ms]
+2024-11-12 16:07:11.926 [info] > git cat-file -s ee81279b7a455b754d90f31ea57cd955a1183462 [2ms]
+2024-11-12 16:07:11.941 [info] > git show --textconv :hasil/hasil_pengolahan.csv [7ms]

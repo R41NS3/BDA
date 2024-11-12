@@ -1,0 +1,14 @@
+2024-11-12 14:34:20.158 [info] Name: Python Debugger
+2024-11-12 14:34:20.158 [info] Module: debugpy
+2024-11-12 14:34:51.626 [info] Resolving launch configuration with substituted variables
+2024-11-12 14:34:51.685 [info] DAP Server launched with command: /home/uddin/room/bin/python /home/uddin/.vscode-server/extensions/ms-python.debugpy-2024.12.0-linux-x64/bundled/libs/debugpy/adapter
+2024-11-12 14:34:51.912 [info] Received 'debugpySockets' event from debugpy.
+2024-11-12 14:34:51.916 [info] Received 'debugpySockets' event from debugpy.
+2024-11-12 14:34:51.916 [info] Received 'debugpySockets' event from debugpy.
+2024-11-12 14:34:53.511 [info] Received 'debugpySockets' event from debugpy.
+2024-11-12 14:35:02.536 [info] Received 'debugpySockets' event from debugpy.
+2024-11-12 14:35:02.602 [info] Received 'debugpySockets' event from debugpy.
+2024-11-12 14:39:55.672 [info] Resolving launch configuration with substituted variables
+2024-11-12 14:39:55.687 [info] DAP Server launched with command: /home/uddin/room/bin/python /home/uddin/.vscode-server/extensions/ms-python.debugpy-2024.12.0-linux-x64/bundled/libs/debugpy/adapter
+2024-11-12 14:40:13.128 [info] Resolving launch configuration with substituted variables
+2024-11-12 14:40:13.140 [info] DAP Server launched with command: /home/uddin/room/bin/python /home/uddin/.vscode-server/extensions/ms-python.debugpy-2024.12.0-linux-x64/bundled/libs/debugpy/adapter
